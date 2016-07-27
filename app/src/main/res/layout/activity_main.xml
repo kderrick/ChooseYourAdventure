@@ -16,4 +16,25 @@
         android:scaleType="fitXY"
         android:adjustViewBounds="true"
         android:contentDescription="Signals From Mars"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Your Adventure"
+        android:id="@+id/startButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nameEditText"
+        android:layout_above="@+id/startButton"
+        android:layout_alignLeft="@+id/titleImageView"
+        android:layout_alignStart="@+id/titleImageView"
+        android:hint="Enter Name To Start"
+        android:maxLength="30" />
 </RelativeLayout>
